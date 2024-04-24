@@ -2,7 +2,7 @@
 #include<string>
 #include<algorithm>
 
-
+// https://leetcode.com/problems/longest-common-prefix/description/
 
 bool compareByLength(const std::string& a, const std::string& b) {
     return a.size() < b.size();
